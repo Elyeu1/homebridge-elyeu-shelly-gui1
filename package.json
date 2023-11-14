@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-shelly-ng",
+  "name": "homebridge-elyeu-shelly-gui1",
   "version": "1.6.0",
   "description": "Homebridge plugin for the next generation of Shelly devices",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexryd/homebridge-shelly-ng.git"
+    "url": "git+https://github.com/alexryd/homebridge-elyeu-shelly-gui1.git"
   },
   "keywords": [
     "homebridge",
@@ -26,9 +26,9 @@
   "author": "Alexander Rydén",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/alexryd/homebridge-shelly-ng/issues"
+    "url": "https://github.com/alexryd/homebridge-elyeu-shelly-gui1/issues"
   },
-  "homepage": "https://github.com/alexryd/homebridge-shelly-ng#readme",
+  "homepage": "https://github.com/alexryd/homebridge-elyeu-shelly-gui1#readme",
   "funding": {
     "type": "kofi",
     "url": "https://ko-fi.com/alexryd"
@@ -46,6 +46,6 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "shellies-ng": "^1.5.1"
+    "homebridge-elyeu-shelly-node-gui1": "^1.5.1"
   }
 }

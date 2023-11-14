@@ -1,4 +1,4 @@
-import { ComponentLike, Cover, Device, Switch } from 'shellies-ng';
+import { ComponentLike, Cover, Device, Switch } from 'homebridge-elyeu-shelly-node-gui1';
 import { PlatformAccessory } from 'homebridge';
 
 import {

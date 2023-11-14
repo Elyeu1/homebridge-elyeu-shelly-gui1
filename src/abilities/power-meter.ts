@@ -3,7 +3,7 @@ import {
   Cover,
   Switch,
   SwitchEnergyCounterAttributes,
-} from 'shellies-ng';
+} from 'homebridge-elyeu-shelly-node-gui1';
 
 import { Ability, ServiceClass } from './base';
 

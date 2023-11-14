@@ -1,4 +1,4 @@
-import { ShellyPro3 } from 'shellies-ng';
+import { ShellyPro3 } from 'homebridge-elyeu-shelly-node-gui1';
 
 import { DeviceDelegate } from './base';
 

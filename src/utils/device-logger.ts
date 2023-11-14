@@ -1,4 +1,4 @@
-import { Device } from 'shellies-ng';
+import { Device } from 'homebridge-elyeu-shelly-node-gui1';
 import { Logger, LogLevel } from 'homebridge';
 
 /**

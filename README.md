@@ -1,7 +1,7 @@
-<a href="https://github.com/alexryd/homebridge-shelly-ng"><img src="homebridge-shelly-ng.png" height="120"></a>
+<a href="https://github.com/alexryd/homebridge-elyeu-shelly-gui1"><img src="homebridge-elyeu-shelly-gui1.png" height="120"></a>
 
-# homebridge-shelly-ng
-[![npm-version](https://badgen.net/npm/v/homebridge-shelly-ng)](https://www.npmjs.com/package/homebridge-shelly-ng)
+# homebridge-elyeu-shelly-gui1
+[![npm-version](https://badgen.net/npm/v/homebridge-elyeu-shelly-gui1)](https://www.npmjs.com/package/homebridge-elyeu-shelly-gui1)
 [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
 
 [Homebridge](https://homebridge.io) plugin for [Shelly](https://shelly.cloud),
@@ -29,7 +29,7 @@ Either install this plugin through [Homebridge Config UI X](https://github.com/o
 or manually by following these instructions:
 
 1. Install Homebridge by [following the instructions](https://github.com/homebridge/homebridge/wiki).
-2. Install this plugin by running `npm install -g homebridge-shelly-ng`.
+2. Install this plugin by running `npm install -g homebridge-elyeu-shelly-gui1`.
 3. Add this plugin to the Homebridge config.json:
   ```
   "platforms": [
@@ -95,7 +95,7 @@ See below for descriptions of each configuration option.
 | Option                          | Description |
 | ---                             | ---         |
 | `devices`                       | An array of one or more objects with options for specific devices. |
-| `devices. id`                   | The device ID. [Here's how to find it](https://github.com/alexryd/homebridge-shelly-ng/wiki/Finding-a-device-ID). |
+| `devices. id`                   | The device ID. [Here's how to find it](https://github.com/alexryd/homebridge-elyeu-shelly-gui1/wiki/Finding-a-device-ID). |
 | `devices. name`                 | The name of the device. This will be shown in the homebridge log and will be used as the default name when the device is added to HomeKit. Note though that setting this value after the device has been added will not change the name in HomeKit. If no name is specified, this plugin will use the device name set in the Shelly app, or the name of the device model. |
 | `devices. exclude`              | Set this option to `true` to make this plugin ignore this device. |
 | `devices. hostname`             | The IP address or hostname of the device. Set this value if your device can't be discovered automatically. |

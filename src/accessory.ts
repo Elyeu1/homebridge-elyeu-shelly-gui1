@@ -1,4 +1,4 @@
-import { DeviceId } from 'shellies-ng';
+import { DeviceId } from 'homebridge-elyeu-shelly-node-gui1';
 import { PlatformAccessory } from 'homebridge';
 
 import { Ability } from './abilities';

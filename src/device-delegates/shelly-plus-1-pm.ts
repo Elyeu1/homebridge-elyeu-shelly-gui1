@@ -1,7 +1,7 @@
 import {
   ShellyPlus1Pm,
   ShellyPlus1PmUl,
-} from 'shellies-ng';
+} from 'homebridge-elyeu-shelly-node-gui1';
 
 import { DeviceDelegate } from './base';
 
